@@ -1,5 +1,5 @@
-const apiRoutes = require ('./routes/apiRoutes');
-const htmlRoutes = require('./routes/htmlRoutes');
+const apiRoutes = require ('../NoteTaker2/routes/apiRoutes');
+const htmlRoutes = require('../NoteTaker2/routes/htmlRoutes');
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
@@ -10,7 +10,8 @@ app.use(express.json());
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes)
 app.use(express.static('public'));
-const { notes } = require('./data/notes.json')
+const { notes } = require('../NoteTaker2/db/db.json');
+const router = require('express').Router();
 
 
 router.listen(PORT, () => {
