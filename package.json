@@ -9,6 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaunSully88/NoteTaker2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShaunSully88/NoteTaker2/issues"
+  },
+  "homepage": "https://github.com/ShaunSully88/NoteTaker2#readme",
+  "keywords": []
 }
